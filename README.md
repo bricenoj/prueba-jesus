@@ -5,7 +5,7 @@
 
 En el archivo **webpack.config.js**
 
-Verificar que publicPath tiene como valor **./dist/** como aparece en el siguiente código, sino cambiarlo.
+Verificar que publicPath tiene como valor **./dist/** como aparece en el siguiente código, sino asignarlo.
 ~~~
  if (process.env.NODE_ENV === 'production') {
 ...
